@@ -16,3 +16,4 @@ public class Task4 {
         System.out.println("Your initials "+firstName.charAt(0)+lastName.charAt(0));
     }
 }
+

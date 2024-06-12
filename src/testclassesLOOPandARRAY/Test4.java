@@ -21,4 +21,5 @@ public class Test4 {
         }
         System.out.println("Total vowels is: "+totalVowels);
     }
+    
 }

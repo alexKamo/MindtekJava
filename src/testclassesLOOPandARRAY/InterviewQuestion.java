@@ -23,7 +23,5 @@ public class InterviewQuestion {
         if (text.equals(rev)) System.out.println("Palindrome");
         else System.out.println("No a palindrome");
 
-
-
     }
 }

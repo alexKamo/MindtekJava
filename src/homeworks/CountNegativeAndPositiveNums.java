@@ -19,3 +19,4 @@ public class CountNegativeAndPositiveNums {
         System.out.println("Negative numbers: "+negNum);
     }
 }
+

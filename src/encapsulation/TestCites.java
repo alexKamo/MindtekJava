@@ -19,7 +19,7 @@ public class TestCites {
          method returns total population of cities of that country
          Example:
             .getPopulation(cities,"Germany"); -> return 11;
-         */
+          */
         City[] cities = {citi1,citi2,citi3,citi4,citi5};
         System.out.println(getPopulation(cities,"USA"));
         System.out.println(getPopulation(cities,"China"));

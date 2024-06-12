@@ -1,6 +1,7 @@
 package arrays;
 
 public class DuplicateFounder {
+
     public static void main(String[] args) {
         char[] symbols = {'A','$','h','H','y','#','*','@','k','$'};
         //find if symbols arr has dup values

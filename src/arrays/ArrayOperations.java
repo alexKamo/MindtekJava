@@ -3,6 +3,7 @@ package arrays;
 import java.util.Arrays;
 
 public class ArrayOperations {
+
     public static void main(String[] args) {
 
          int[] arr = new int[3];

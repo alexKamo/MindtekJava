@@ -17,4 +17,5 @@ public class SumInLoop {
         System.out.println("Total sum of positive num is: "+sum);
 
     }
+
 }

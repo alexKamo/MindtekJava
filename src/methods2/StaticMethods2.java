@@ -23,3 +23,4 @@ public class StaticMethods2 {
         System.out.println(getGreatest(5,10));
     }
 }
+

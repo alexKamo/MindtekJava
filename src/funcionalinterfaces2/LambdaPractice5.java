@@ -28,6 +28,7 @@ public class LambdaPractice5 {
                 output.add(n);
             }
         }
+
         return output;
     }
 

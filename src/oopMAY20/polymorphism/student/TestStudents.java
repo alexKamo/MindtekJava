@@ -27,6 +27,7 @@ public class TestStudents {
          */
         System.out.println(student1.study());
 
+
         List<Student> students = new ArrayList<>();
         students.add(student1);
         students.add(student2);

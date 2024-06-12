@@ -24,3 +24,4 @@ public class Task18Calculator {
         }else System.out.println("Invalid operator...");
     }
 }
+

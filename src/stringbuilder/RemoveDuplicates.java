@@ -23,3 +23,4 @@ public class RemoveDuplicates {
         System.out.println(dup.removeDupChars("Java is my passion"));
     }
 }
+

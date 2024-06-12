@@ -9,6 +9,7 @@ public class DollarChange {
         double value = sc.nextDouble();
         int total = (int)(value*100);
 
+
         int quarters = total/25;
         total = total%25;
         System.out.println("Quarters: " +quarters);

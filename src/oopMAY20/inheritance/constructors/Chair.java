@@ -6,3 +6,4 @@ public class Chair extends Furniture{
         super(model);
     }
 }
+

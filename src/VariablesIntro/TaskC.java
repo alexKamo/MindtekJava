@@ -18,3 +18,4 @@ public class TaskC {
         System.out.println("Total is " + --a +(a+c));
     }
 }
+

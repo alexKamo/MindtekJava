@@ -11,6 +11,4 @@ public class FindTarget {
         .findTarget([4,2,1,9,6,7], 9); returns [2,1,6
      */
 
-
-
 }

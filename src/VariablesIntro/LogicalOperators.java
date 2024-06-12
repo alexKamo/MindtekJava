@@ -29,8 +29,7 @@ public class LogicalOperators {
         System.out.println("Teenager Female Book club"); // age  13<=age<=20 and Female   age>=13 && age<=19 && gender==1
 
 
-
-
     }
+
 
 }

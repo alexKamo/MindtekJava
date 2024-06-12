@@ -20,4 +20,5 @@ public class DuplicateFounder {
         if (dup) System.out.println("Duplicate found");
         else System.out.println("No duplicate found");
     }
+
 }

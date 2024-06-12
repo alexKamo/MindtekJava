@@ -5,3 +5,4 @@ public class BigAmountTransactionException extends RuntimeException {
         super(s);
     }
 }
+

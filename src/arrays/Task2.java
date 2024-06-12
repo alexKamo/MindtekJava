@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Task2 {
     public static void main(String[] args) {
 
+
         int[] arr = {1,3,5,4,2};
         //replace each elem,ent is array with its cube: 5 -> 5*5*5 = 125;
         //find total sum of all elements

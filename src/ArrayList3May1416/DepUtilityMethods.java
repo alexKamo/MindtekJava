@@ -5,6 +5,7 @@ import java.util.List;
 
 public class DepUtilityMethods {
 
+
     /**
      * Method returns list of department names that located in same location
      *

@@ -22,3 +22,4 @@ public class Employee {
         // to initialize variables of objects when object is being created
     }
 }
+

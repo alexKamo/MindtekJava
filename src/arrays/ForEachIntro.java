@@ -1,6 +1,7 @@
 package arrays;
 
 public class ForEachIntro {
+
     public static void main(String[] args) {
         char[] symbols = {'A','$','h','H','y','#','*','@','k','$'};
 

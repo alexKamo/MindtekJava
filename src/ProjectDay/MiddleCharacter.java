@@ -14,3 +14,4 @@ public class MiddleCharacter {
         }else System.out.println("Word doesn't have 3 characters or more");
     }
 }
+

@@ -22,6 +22,7 @@ public class Person {
         else System.out.println("Invalid age");
     }
 
+
     public int getAge(){
         return age;
     }

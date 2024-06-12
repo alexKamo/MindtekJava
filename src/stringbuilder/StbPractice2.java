@@ -11,3 +11,4 @@ public class StbPractice2 {
         System.out.println(email);
     }
 }
+

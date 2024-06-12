@@ -23,3 +23,4 @@ public class StbExample {
         System.out.println("Time for StringBuilder " + (endTimeStr-startTimeStr));
     }
 }
+

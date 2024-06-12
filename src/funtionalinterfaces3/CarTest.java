@@ -25,6 +25,7 @@ public class CarTest {
 //            }
 //        }
 
+
         ge0tDataFromCars(cars, x -> x.getTear()>=2020, car -> car.getModel());
 
          /*

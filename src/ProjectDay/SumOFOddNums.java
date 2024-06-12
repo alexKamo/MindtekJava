@@ -11,3 +11,4 @@ public class SumOFOddNums {
         System.out.println("Total odd sum is: " +sum);
     }
 }
+

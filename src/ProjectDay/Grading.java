@@ -15,3 +15,4 @@ public class Grading {
         else System.out.println("Practice Java");
     }
 }
+

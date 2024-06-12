@@ -6,3 +6,4 @@ public interface Student {
 
     String study();
 }
+

@@ -26,6 +26,7 @@ public class Product {
         this.price = price;
     }
 
+
     public String toString(){
         return "Product name: "+name+", rate of this product: "+rate+", and a price is: "+"$"+price;
     }

@@ -19,4 +19,5 @@ public class Task6 {
         }
         System.out.println("Total amount of vowels: " +count);
     }
+
 }

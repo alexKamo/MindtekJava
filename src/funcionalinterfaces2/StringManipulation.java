@@ -6,3 +6,4 @@ public interface StringManipulation {
     String execute(String str);
 
 }
+

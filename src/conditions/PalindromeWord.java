@@ -20,4 +20,5 @@ public class PalindromeWord {
         if (text.equals(rev)) System.out.println("Palindrome");
         else System.out.println("Not a palindrome");
     }
+
 }

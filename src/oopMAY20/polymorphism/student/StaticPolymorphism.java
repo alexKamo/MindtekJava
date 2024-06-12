@@ -18,3 +18,4 @@ public class StaticPolymorphism {
         System.out.println(getSum(2,3,4));
     }
 }
+

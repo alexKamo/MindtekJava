@@ -14,3 +14,4 @@ public class Task2 {
         System.out.println("And your change is " + change);
     }
 }
+

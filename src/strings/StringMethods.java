@@ -26,6 +26,7 @@ public class StringMethods {
         name = name.trim();
         System.out.println(name.trim() ); //count  only words
 
+
         // chaining:
         String el = "  java  ";
         // make sure all letters are uppercase

@@ -28,11 +28,5 @@ public class Task8 {
             System.out.println(5-count + "Non vowels found");
         }else System.out.println("Invalid");
 
-
-
-
-
-
-
     }
 }

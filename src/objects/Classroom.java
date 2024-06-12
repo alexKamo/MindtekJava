@@ -33,6 +33,7 @@ public class Classroom {
             System.out.println(students[i].location);
         }
 
+
     }
 
 }

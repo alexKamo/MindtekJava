@@ -13,4 +13,5 @@ public class Task8 {
         for (char el:letters) s+=el;
         System.out.println("Sum is: "+s);
     }
+
 }

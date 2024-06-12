@@ -46,6 +46,7 @@ public class Manager {
         this.department = department;
     }
 
+
     @Override
     public String toString() {
         return "Manager{" +

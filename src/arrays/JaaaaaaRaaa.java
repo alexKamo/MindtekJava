@@ -3,6 +3,7 @@ package arrays;
 import java.util.Arrays;
 
 public class JaaaaaaRaaa {
+
     public static void main(String[] args) {
         int[] arr = {11,22,23,34,45,56,67,89};
         separateEvenAndOdd(arr);

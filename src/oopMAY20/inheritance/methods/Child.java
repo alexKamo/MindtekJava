@@ -20,3 +20,4 @@ public class Child extends Parent{
         return "Regular Method of Child Class";
     }
 }
+

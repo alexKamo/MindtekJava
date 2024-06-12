@@ -25,3 +25,4 @@ public class Discussion {
         System.out.println("So you work weekly " + sum);
     }
 }
+

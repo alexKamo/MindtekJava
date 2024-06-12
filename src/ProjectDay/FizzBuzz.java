@@ -18,3 +18,4 @@ public class FizzBuzz {
         else System.out.println("Not divisible by 3 and 5");
     }
 }
+

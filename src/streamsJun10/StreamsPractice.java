@@ -36,6 +36,7 @@ public class StreamsPractice {
                 .anyMatch(x -> x.toLowerCase().contains("b"));
         System.out.println(result);
 
+
         System.out.println("--------------------------");
        boolean result2 = colors.stream()
                 .filter(x -> x.length()==4)

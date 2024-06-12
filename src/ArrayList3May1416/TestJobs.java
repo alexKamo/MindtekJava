@@ -19,6 +19,7 @@ public class TestJobs {
         System.out.println(JobsUtilityMethods.getSalaryOf(Data.getJobs(),"President"));
         System.out.println(JobsUtilityMethods.getSalaryOf(Data.getJobs(),"Java Developer"));
 
+
         System.out.println("===========================================================================================");
         List<String> titles = new ArrayList<>(List.of("Finance Manager","Programmer","Programmer","Sales Manager"));
         System.out.println(JobsUtilityMethods.increaseSalary(Data.getJobs(),titles,10));

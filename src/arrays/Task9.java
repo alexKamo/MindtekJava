@@ -28,4 +28,5 @@ public class Task9 {
         System.out.println(Arrays.toString(positive));
         System.out.println(Arrays.toString(negative));
     }
+
 }

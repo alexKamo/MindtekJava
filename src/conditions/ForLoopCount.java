@@ -12,4 +12,5 @@ public class ForLoopCount {
         }
         System.out.println(sum); // or we can do System.out.println(500*501/2);
     }
+
 }

@@ -30,3 +30,4 @@ public class FindTarget {
         System.out.println(Arrays.toString(findTarget(new int[]{4, 2, 1, 9, 6, 7}, 9)));
     }
 }
+

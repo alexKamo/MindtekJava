@@ -18,6 +18,7 @@ public class TestEmployees {
             }
         }
 
+
         System.out.println("=============================");
         // get total salary of employees who works in finance dep
         int total = 0;

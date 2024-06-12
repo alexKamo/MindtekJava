@@ -2,6 +2,7 @@ package ArrayList3May1416;
 
 public class Job {
 
+
     private String title;
     private String jobId;
     private int salary;

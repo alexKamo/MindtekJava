@@ -15,6 +15,6 @@ public class LargestNumber {
 
         System.out.println("Greatest number is: " +max);
 
-
     }
+
 }

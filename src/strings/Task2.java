@@ -16,3 +16,4 @@ public class Task2 {
         else System.out.println("Chars is different");
     }
 }
+

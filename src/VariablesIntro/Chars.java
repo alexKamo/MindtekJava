@@ -6,3 +6,4 @@ public class Chars {
         System.out.println(letter+0);
     }
 }
+

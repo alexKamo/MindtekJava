@@ -12,3 +12,4 @@ public class Distance {
         System.out.println("That will be " + (mil * km2) + " kilometers");
     }
 }
+

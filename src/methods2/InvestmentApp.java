@@ -14,3 +14,4 @@ public class InvestmentApp {
         System.out.println(getTotalWithProfit(100,5,4));
     }
 }
+

@@ -15,3 +15,4 @@ public class GenerateEmaill {
         + "."+ lastName.replace(" ","") + "@"+ companyName + ".com");
     }
 }
+

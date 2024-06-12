@@ -31,4 +31,5 @@ public class CommonChars {
         System.out.println(commonChars("Hot", "Cold"));
     }
 
+
 }

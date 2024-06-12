@@ -3,6 +3,7 @@ package arrays;
 import java.util.Arrays;
 
 public class PositiveNegative {
+
     public static void main(String[] args) {
         int[] nums = {1,2,3,4,5,0,0,-3,-4,64,12,-11};
         // create 2 new arrays, regroup elements into positive and negative

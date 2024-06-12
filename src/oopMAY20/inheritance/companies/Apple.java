@@ -7,3 +7,4 @@ public class Apple extends Company{
         return true;
     }
 }
+

@@ -23,5 +23,6 @@ public class LongestPalindrome {
                 System.out.println(palindrome);
             }
         }
+
     }
 }

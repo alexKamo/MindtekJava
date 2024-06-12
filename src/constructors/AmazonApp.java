@@ -10,5 +10,6 @@ public class AmazonApp {
         System.out.println(product2);
         System.out.println(Product.count);
 
+
     }
 }

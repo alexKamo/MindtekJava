@@ -8,3 +8,4 @@ public class TestFurniture {
         System.out.println(sofa.model);
     }
 }
+

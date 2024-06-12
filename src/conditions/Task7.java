@@ -16,5 +16,6 @@ public class Task7 {
             lefti++;
             righti--;
         }
+
     }
 }

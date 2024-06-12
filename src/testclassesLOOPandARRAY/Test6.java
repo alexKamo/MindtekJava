@@ -25,4 +25,5 @@ public class Test6 {
         if (pairFound) System.out.println("Pair found");
         else System.out.println("Pair isn't found");
     }
+
 }

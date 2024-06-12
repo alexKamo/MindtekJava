@@ -14,8 +14,5 @@ public class TAsk9 {
         String firstName = fullName.substring(0,index);
         String lastName = fullName.substring(index);
         System.out.println("Your first name is: " + firstName + " and " + " Your last name is: " +lastName);
-
-
-
     }
 }

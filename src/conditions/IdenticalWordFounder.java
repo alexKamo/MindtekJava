@@ -21,4 +21,5 @@ public class IdenticalWordFounder {
         if (iden) System.out.println("Identical pair found");
         else System.out.println("No identical pair found");
     }
+
 }

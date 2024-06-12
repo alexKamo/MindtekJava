@@ -5,3 +5,4 @@ public interface CarCondition {
     boolean apply(Car car);
 
 }
+

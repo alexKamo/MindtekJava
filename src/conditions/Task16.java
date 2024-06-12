@@ -14,4 +14,5 @@ public class Task16 {
         while (i<word.length()) res+=word.charAt(i++)+"*";
         System.out.print(res);
     }
+
 }

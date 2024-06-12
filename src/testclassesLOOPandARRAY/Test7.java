@@ -17,3 +17,4 @@ public class Test7 {
         if (text.length()<3) System.out.println(text);
     }
 }
+

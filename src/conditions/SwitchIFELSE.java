@@ -2,7 +2,7 @@ package conditions;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class SwitchIFELSE {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number of week day");
@@ -15,6 +15,7 @@ public class Task1 {
 //        else if (weekDay==6) System.out.println("Saturday");
 //        else if (weekDay==7) System.out.println("Sunday");
 //        else System.out.println("Invalid day!");
+
 
         switch (weekDay){
             case 1 : System.out.println("Monday");

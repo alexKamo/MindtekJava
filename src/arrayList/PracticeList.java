@@ -6,6 +6,7 @@ import java.util.List;
 
 public class PracticeList {
 
+
     public static void main(String[] args) {
 
         List<String> companies = new ArrayList<>(List.of("Google","Meta","Mindtek","Apple","Tesla","Netflix","Amazon"));

@@ -28,6 +28,7 @@ public class ComputersStore {
             // Print computer brand that has even number year
         }
 
+        
         // Print comp brand of laptops that are Windows
         String opSys = "Windows";
         for (int a = 0; a<computers.length; a++){

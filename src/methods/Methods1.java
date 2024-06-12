@@ -30,6 +30,7 @@ public class Methods1 {
 
     public boolean SameArrNum(int[] n1, int[] n2){
 
+
         if (n1.length!= n2.length)
             return false;
 

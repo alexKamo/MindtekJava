@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Mindtek {
 
+
     public static void main(java.lang.String[] args) {
 
         List<String> sdetClasses = new ArrayList<>(List.of("Java","Selenium","TestNG","Cucumber","SQL","Rest API"));

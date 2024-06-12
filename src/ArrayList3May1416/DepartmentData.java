@@ -8,6 +8,7 @@ import java.util.List;
 
 public class DepartmentData {
 
+
     private static List<Department> departments = new ArrayList<>();
 
     static {

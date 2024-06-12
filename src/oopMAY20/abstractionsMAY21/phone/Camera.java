@@ -5,3 +5,4 @@ public interface Camera {
     String takePhoto();
 
 }
+

@@ -8,3 +8,4 @@ public class SumOfNumbers {
         System.out.println("Enter a number ");
     }
 }
+

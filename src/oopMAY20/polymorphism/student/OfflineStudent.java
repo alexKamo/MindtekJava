@@ -8,3 +8,4 @@ public class OfflineStudent implements Student{
         return "Offline student is studying from class.";
     }
 }
+

@@ -46,6 +46,7 @@ public class Car {
         this.type = type;
     }
 
+
     @Override
     public String toString() {
         return "Car{" +

@@ -3,6 +3,7 @@ package arrays;
 import java.util.Arrays;
 
 public class ArrayMisc {
+
     public static void main(String[] args) {
         String text = "I am learning JAVA";
         String[] words = text.split(" ");

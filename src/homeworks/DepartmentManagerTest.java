@@ -30,6 +30,7 @@ public class DepartmentManagerTest {
         Manager[] managers={manager1, manager2, manager3, manager4, manager5, manager6};
         //1. Print managerId for those employees whose first name has less than or equals to 4 letters
         //        Output: 200
+        //
         //                500
         for (Manager m:managers){
             String[] t = m.getManagerName().split(" ");

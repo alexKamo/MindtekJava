@@ -19,3 +19,4 @@ public class Task5 {
         else System.out.println("Your word doesn't consist 4 letters");
     }
 }
+

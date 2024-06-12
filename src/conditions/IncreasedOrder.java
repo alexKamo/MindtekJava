@@ -18,4 +18,5 @@ public class IncreasedOrder {
         if (isInc) System.out.println("Increasing order");
         else System.out.println("Not increasing order");
     }
+
 }

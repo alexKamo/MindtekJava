@@ -5,3 +5,4 @@ public abstract class Phone implements Storage,Camera{
     public abstract String call();
 
 }
+

@@ -12,4 +12,5 @@ public class Test2 {
         System.out.println("--------------------------------------");
         for (int i = 0; i<text.length(); i++) System.out.println(text.charAt(i));
     }
+
 }

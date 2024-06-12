@@ -4,6 +4,7 @@ import java.util.List;
 
 public class JobsUtilityMethods {
 
+
     /**
      * This methods will get jobId of job that highest salary
      * Example:

@@ -17,3 +17,4 @@ public class SumOfNumbers2 {
         }else System.out.println("Your num isn't in range 0-500");
     }
 }
+

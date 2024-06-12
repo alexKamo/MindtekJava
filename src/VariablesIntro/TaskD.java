@@ -17,3 +17,4 @@ public class TaskD {
         System.out.println("Total: "+(num3*num4));
     }
 }
+

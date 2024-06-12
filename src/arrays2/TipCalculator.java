@@ -22,6 +22,7 @@ public class TipCalculator {
         Each pays: ...
          */
 
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter you balance");
         double balance = sc.nextDouble();

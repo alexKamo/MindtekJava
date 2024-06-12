@@ -6,6 +6,7 @@ import java.util.List;
 
 public class RemoveDuplicate {
 
+
     public static void main(String[] args) {
 
         Integer[] nums = {2,6,4,10,2,3,3,3,10};

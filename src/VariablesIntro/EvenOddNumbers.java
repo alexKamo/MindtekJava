@@ -23,6 +23,7 @@ public class EvenOddNumbers {
         if(isEven) evenSum += num;
         else oddSum += num;
 
+
         System.out.println("Third number");
         num = sc.nextInt();
         isEven = num%2==0;

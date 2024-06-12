@@ -21,6 +21,7 @@ public class PredicateFunctionalInterface {
             return Arrays.toString(xLetters).equals(Arrays.toString(yLetters));
         };
 
+
         System.out.println(isAnagram.test("abcd","dcba"));
         System.out.println(isAnagram.test("Java","Lava"));
         System.out.println(isAnagram.test("Java","java"));

@@ -20,4 +20,5 @@ public class Test9 {
         }
         System.out.println("Sum of number is: " +sum);
     }
+
 }

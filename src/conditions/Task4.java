@@ -14,5 +14,6 @@ public class Task4 {
             num++;
         }
 
+
     }
 }

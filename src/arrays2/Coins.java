@@ -27,4 +27,5 @@ public class Coins {
         System.out.println("Total coins have: " +"\nQuarters "+quarters+"\nDimes "+dimes+"\nNickels "+nickels+"\nPennies "+pennies);
         System.out.println("Sum of coins "+sum/100);
     }
+
 }

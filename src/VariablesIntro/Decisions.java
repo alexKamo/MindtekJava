@@ -18,4 +18,5 @@ public class Decisions {
             System.out.println("Negative number");
         }
     }
+
 }

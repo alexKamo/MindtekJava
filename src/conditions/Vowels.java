@@ -18,4 +18,5 @@ public class Vowels {
         System.out.println("Vow: " + vowels);
         System.out.println("Non vow: " + (word.length()-vowels));
     }
+
 }

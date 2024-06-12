@@ -22,6 +22,8 @@ public class TestPeople {
         person3.setGender('M');
         person3.setAdult(false);
 
+
+
         Person person4 = new Person();
         person4.setName("Kate");
         person4.setAge(28);

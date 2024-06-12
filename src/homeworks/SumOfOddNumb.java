@@ -21,3 +21,4 @@ public class SumOfOddNumb {
         System.out.println("Sum of odd numbers is: " +sum);
     }
 }
+

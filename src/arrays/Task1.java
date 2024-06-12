@@ -4,6 +4,7 @@ import javax.swing.plaf.basic.BasicArrowButton;
 import java.util.Arrays;
 
 public class Task1 {
+
     public static void main(String[] args) {
         /*
         create arr which hold 5 string elements

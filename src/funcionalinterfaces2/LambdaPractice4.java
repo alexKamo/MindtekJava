@@ -36,6 +36,7 @@ public class LambdaPractice4 {
           return stb.toString().trim();
         };
 
+
         System.out.println(concatenate.execute(word));
 
 

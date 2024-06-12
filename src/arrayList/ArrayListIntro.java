@@ -35,5 +35,6 @@ public class ArrayListIntro {
             System.out.println(list.get(i));
         }
 
+
     }
 }

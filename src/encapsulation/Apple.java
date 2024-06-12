@@ -16,6 +16,7 @@ public class Apple {
 
         Employee[] employees ={emp1,emp2,emp3,emp4,emp5};
 
+
         // John Doe works in It department
         for (Employee e : employees){
             System.out.println(e.getName()+" works in "+e.getDepartment().getName()+" department.");

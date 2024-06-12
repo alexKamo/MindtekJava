@@ -2,6 +2,7 @@ package arraylist2May13;
 
 public class Computer {
 
+
     private String brand;
     private int RAM;
     static int numberOfButtons;

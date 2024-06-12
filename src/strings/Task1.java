@@ -16,3 +16,4 @@ public class Task1 {
         }else System.out.println("Invalid length, please rewrite word again.");
     }
 }
+

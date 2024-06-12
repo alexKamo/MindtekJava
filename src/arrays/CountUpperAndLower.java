@@ -3,6 +3,7 @@ package arrays;
 import java.util.Arrays;
 
 public class CountUpperAndLower {
+
     public static void main(String[] args) {
         char[] symbols = {'A','$','h','H','y','#'};
         //create 2 arrays: regroup uppercase letters and lowercase letters

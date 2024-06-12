@@ -14,3 +14,4 @@ public class Triangle extends Shape{
         return length*width/2;
     }
 }
+

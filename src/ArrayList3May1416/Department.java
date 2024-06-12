@@ -2,6 +2,7 @@ package ArrayList3May1416;
 
 public class Department {
 
+
     private int departmentId;
     private String name;
     private int locationId;

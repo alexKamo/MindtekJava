@@ -22,3 +22,4 @@ public class Receipt {
         System.out.println("Total: " + "$" + (price1+price2));
     }
 }
+

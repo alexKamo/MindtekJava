@@ -26,4 +26,5 @@ public class Task15 {
         }
        if (!isVic) System.out.println("You lost, my number was: " +secretNum);
     }
+
 }

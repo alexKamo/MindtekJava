@@ -21,4 +21,5 @@ public class Task11 {
         }
         for (int[] num : cord) System.out.println(Arrays.toString(num));
     }
+
 }

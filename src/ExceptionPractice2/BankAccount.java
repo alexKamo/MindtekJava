@@ -20,4 +20,5 @@ public class BankAccount {
             throw new InsufficientFundsException("Not enough balance to make a transaction");
         }
     }
+
 }

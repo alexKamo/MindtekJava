@@ -5,3 +5,4 @@ public class Dog extends Animal{
         return "Dog is barking";
     }
 }
+
