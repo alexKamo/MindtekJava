@@ -14,7 +14,11 @@ public class FlatMapEx2 {
         numbers.add(list1);
         numbers.add(list2);
 
-
+        /*
+        add numbers of list into single list by multiplying each numbers by 2
+        and only those that is less than 10
+        use flatMap, filter, map
+         */
 
      List<Integer> num =  numbers.stream()
                 .flatMap(List::stream)
@@ -23,8 +27,7 @@ public class FlatMapEx2 {
                 .collect(Collectors.toList());
         System.out.println(num);
 
-        System.out.println("hello");
-        //askjs
+
 
     }
 
