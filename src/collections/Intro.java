@@ -29,6 +29,14 @@ public class Intro {
         System.out.println(stack.peek());
 
         // pop method -> removes object from the top and returns array without last values
+        System.out.println(stack.pop());
+
+        Stack<String> words = new Stack<>();
+        System.out.println(words);
+        if (!words.isEmpty()) words.pop();
+
+
+
 
 
     }
