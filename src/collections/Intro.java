@@ -1,6 +1,7 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 public class Intro {
@@ -34,6 +35,13 @@ public class Intro {
         Stack<String> words = new Stack<>();
         System.out.println(words);
         if (!words.isEmpty()) words.pop();
+
+        List<Integer> list1 = new ArrayList<>();
+        List<Integer> list2 = new ArrayList<>();
+        list2.add(4);
+        list2.add(5);
+        list2.add(1,8);
+        System.out.println(list2);
 
 
 
