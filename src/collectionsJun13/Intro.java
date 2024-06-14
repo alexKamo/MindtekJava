@@ -1,4 +1,4 @@
-package collections;
+package collectionsJun13;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,6 +42,7 @@ public class Intro {
         list2.add(5);
         list2.add(1,8);
         System.out.println(list2);
+
 
 
 
