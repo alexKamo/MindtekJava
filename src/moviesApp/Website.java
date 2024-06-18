@@ -8,14 +8,36 @@ public class Website {
 
     public static void main(String[] args) {
 
+        /* Scanner:
+            Search by:
+            Keep showing menu until user put exit
+                1. Genre
+                2. Director
+                3. Year
+                4. For Children
+                5. Exit
+
+                EX:
+                    1 -> which genre? - Drama : Movies found with give genre: print movies
+
+
+         */
+
+
 //       for (Movie m : Database.provide()){
 //           System.out.println(m);
 //       }
 
-        List<Movie> movies = searchByDirector("Nolan");
+
+
+        List<Movie> movies = searchByYear(2000,2024);
         print(movies);
 
 
+    }
+
+    private static List<Movie> searchByYear(int i, int i1) {
+        return Database.provide().stream().filter(m -> m.getReleaseYear()>=i && m.getReleaseYear()<=i1).collect(Collectors.toList());
     }
 
     private static List<Movie> searchByDirector(String director) {
