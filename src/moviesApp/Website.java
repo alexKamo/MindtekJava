@@ -46,7 +46,7 @@ public class Website {
                     String genre = sc.nextLine();
                     sc.nextLine();
                     movies = searchByGenre(Database.provide().stream().filter(m -> m.getGenre().equalsIgnoreCase(genre)).toString());
-                    System.out.println(Arrays.toString(movies));
+                    System.out.println(movies);
                     break;
                 case 2:
                     System.out.print("Which director? ");
