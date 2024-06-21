@@ -4,6 +4,7 @@ import collectionsJun13.Pet;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class IntroHashSet {
 
@@ -17,6 +18,15 @@ public class IntroHashSet {
         System.out.println(set);
         set.remove(11);
         System.out.println(set);
+
+        System.out.println("*************************");
+        Set<String> treeSet = new TreeSet<>();
+        treeSet.add("Java");
+        treeSet.add("Zebra");
+        treeSet.add("Apple");
+        treeSet.add("Zebra");
+        System.out.println(treeSet);
+
 
     }
 
