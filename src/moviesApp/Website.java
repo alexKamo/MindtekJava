@@ -43,27 +43,29 @@ public class Website {
             switch (menu){
                 case 1:
                     System.out.println("Which genre? ");
-                    String genre = sc.nextLine();
+                    String genre = sc.next();
                     sc.nextLine();
-                    movies = searchByGenre(Database.provide().stream().filter(m -> m.getGenre().equalsIgnoreCase(genre)).toString());
-                    System.out.println(movies);
+                    movies = searchByGenre(genre);
+                    print(movies);
                     break;
                 case 2:
                     System.out.print("Which director? ");
-                    String director = sc.nextLine();
+                    String director = sc.next();
                     sc.nextLine();
-                    searchByDirector(director);
+                    movies = searchByDirector(director);
+                    print(movies);
                     break;
                 case 3:
-                    System.out.print("Which year? ");
-                    int year = sc.nextInt();
+                    System.out.print("What years do you prefer? \"From\" \"-\" \"To\" ");
+                    int year = sc.nextInt(), year2 = sc.nextInt();
                     sc.nextLine();
-                    searchByYear(year, year);
+                    movies = searchByYear(year,year2);
+                    print(movies);
                     break;
                 case 4:
                     System.out.println("Movies for children:");
-                    sc.nextLine();
-                    searchForChildren(movies);
+                    movies = searchForChildren(movies);
+                    print(movies);
                     break;
                 case 5:
                     System.out.println("Exiting program...");
@@ -76,58 +78,6 @@ public class Website {
             System.out.println("===========================================================");
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//       for (Movie m : Database.provide()){
-//           System.out.println(m);
-//       }
-
-
-
-//        List<Movie> movies = searchByYear(2000,2024);
-//        print(movies);
-
-
     }
 
     private static List<Movie> searchForChildren(List<Movie> movie){
@@ -137,14 +87,15 @@ public class Website {
 
     }
 
-
     private static List<Movie> searchByYear(int i, int i1) {
+
         return Database.provide().stream().filter(m -> m.getReleaseYear()>=i && m.getReleaseYear()<=i1).collect(Collectors.toList());
     }
 
     private static List<Movie> searchByDirector(String director) {
         return Database.provide().stream().filter(d -> d.getDirector().contains(director)).collect(Collectors.toList());
     }
+
 
     private static void print(List<Movie> movies) {
         int num = 1;
@@ -155,7 +106,6 @@ public class Website {
 
 //        movies.stream().forEach(movie -> System.out.println(movie));
     }
-
 
     private static List<Movie> searchByGenre(String genre) {
 //        List<Movie> list = new ArrayList<>();
