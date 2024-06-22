@@ -1,8 +1,8 @@
-package INTERVIEWQUESTIONCODING;
+package testclassesLOOPandARRAY;
 
 import java.util.Arrays;
 
-public class Interview1 {
+public class CombineTwoArrInOne {
 
     public static int[] twoArrInOne(int[] num1, int[] num2){
         // Combine two arrays into one array. int nums[]={2,4,3}; int nums2[]={1,8};]
@@ -26,5 +26,13 @@ public class Interview1 {
         System.out.println(Arrays.toString(twoArrInOne(n1,n2)));
 
     }
+
+
+
+
+
+
+
+
 
 }
