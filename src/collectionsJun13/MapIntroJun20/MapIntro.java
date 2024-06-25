@@ -40,8 +40,15 @@ public class MapIntro {
         System.out.println(days.putIfAbsent(12,"Twelve"));
 
         System.out.println(days);
-        System.out.println("************************");
+        System.out.println("=============================");
 
+        // iterate through map:
+        for (Map.Entry<Integer,String> pair : days.entrySet()){
+            System.out.println(pair.getKey());
+            System.out.println(pair.getValue());
+            System.out.println("===========================");
+
+        }
 
     }
 
