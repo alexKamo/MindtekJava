@@ -1,7 +1,5 @@
 package LEETCODE;
 
-import java.util.HashMap;
-import java.util.Map;
 
 public class validAnagram {
     public boolean isAnagram(String s, String t) {
