@@ -7,18 +7,18 @@ public class validAnagram {
     public boolean isAnagram(String s, String t) {
         if(s.length()!=t.length()) return false;
 
-        Map<Character, Integer> map = new HashMap<>();
-
-        for(int i = 0; i<s.length(); i++){
-            char letter1 = s.charAt(i);
-            if(map.containsKey(letter1)){
-                map.put(letter1,map.get(letter1)+1);
-            }else map.put(letter1,1);
+        int[] letters = new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            char letter = s.charAt(i);
+            int index = 'z' - letter;
+            letters[index]++;
 
             char letter2 = t.charAt(i);
-            if (map.containsKey(letter2)) map.put(letter2, map.get(letter1)-1);
-            else map.put(letter2,1);
+            int index2 = 'z' - letter2;
+            letters[index2]--;
         }
+        for (int el : letters) if (el!=0) return false;
+
         return true;
     }
 }
