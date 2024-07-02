@@ -10,6 +10,7 @@ public class MiddleOfLinkedList {
             head = head.next;
             size++;
         }
+        // size / 2 is a middle length
         for (int i = 0; i < size/2; i++) {
             temp = temp.next;
         }
