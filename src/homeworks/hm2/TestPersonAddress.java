@@ -15,11 +15,27 @@ public class TestPersonAddress {
                 new Person("Bob", 40, Arrays.asList(new Address("Paris", "France"), new Address("Lyon", "France")))
         );
 
-        List<Person> older30 = persons.stream().filter(p -> p.getAge()>=30).collect(Collectors.toList());
-        System.out.println(older30);
+        List<Person> olderThan30 = persons.stream()
+                .filter(p -> p.getAge() > 30)
+                .collect(Collectors.toList());
+        System.out.println("People older than 30: " + olderThan30);
 
+        List<String> names = persons.stream()
+                .map(Person::getName)
+                .collect(Collectors.toList());
+        System.out.println("List of names: " + names);
 
+        List<String> cities = persons.stream()
+                .flatMap(p -> p.getAddresses().stream())
+                .map(Address::getCity)
+                .collect(Collectors.toList());
+        System.out.println("List of cities: " + cities);
 
+        long uniqueCountriesCount = persons.stream()
+                .flatMap(p -> p.getAddresses().stream())
+                .map(Address::getCounty)
+                .distinct()
+                .count();
+        System.out.println("Number of unique countries: " + uniqueCountriesCount);
     }
-
 }
