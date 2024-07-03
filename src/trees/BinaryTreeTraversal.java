@@ -17,13 +17,24 @@ public class BinaryTreeTraversal {
         Node n2 = new Node(7);
         Node n3 = new Node(8);
         Node n4 = new Node(9);
+        Node n5 = new Node(10);
+        Node n6 = new Node(2);
+
 
         root.left = n1;
         root.right = n2;
         n1.left = n3;
+        n1.right = n5;
         n2.right = n4;
-
+        n2.left = n6;
+        System.out.print("PreOrder: ");
         preOrder(root);
+        System.out.println();
+        System.out.print("InOrder: ");
+        inOrder(root);
+        System.out.println();
+        System.out.print("PostOrder: ");
+        postOrder(root);
     }
 
     public static void preOrder(Node root){
@@ -31,5 +42,19 @@ public class BinaryTreeTraversal {
         System.out.print(root.val + " ");
         preOrder(root.left);
         preOrder(root.right);
+    }
+
+    public static void inOrder(Node root){
+        if (root == null) return;
+        inOrder(root.left);
+        System.out.print(root.val + " ");
+        inOrder(root.right);
+    }
+    public static void postOrder(Node root){
+        if (root == null) return;
+        postOrder(root.left);
+        postOrder(root.right);
+        System.out.print(root.val + " ");
+
     }
 }

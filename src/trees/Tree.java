@@ -23,11 +23,16 @@ public class Tree {
         Node n2 = new Node(7);
         Node n3 = new Node(8);
         Node n4 = new Node(9);
+        Node n5 = new Node(10);
+        Node n6 = new Node(2);
+
 
         root.left = n1;
         root.right = n2;
         n1.left = n3;
+        n1.right = n5;
         n2.right = n4;
+        n2.left = n6;
 
     }
 
