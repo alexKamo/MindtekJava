@@ -24,4 +24,11 @@ public class BinaryTreeTraversal {
         n2.right = n4;
 
     }
+
+    public static void preOrder(Node root){
+        if (root == null) return;
+        System.out.println(root.val + "");
+        preOrder(root.left);
+        preOrder(root.right);
+    }
 }
