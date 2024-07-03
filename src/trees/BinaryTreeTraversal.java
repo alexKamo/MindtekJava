@@ -1,5 +1,8 @@
 package trees;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class BinaryTreeTraversal {
 
     /*
@@ -35,6 +38,9 @@ public class BinaryTreeTraversal {
         System.out.println();
         System.out.print("PostOrder: ");
         postOrder(root);
+        System.out.println();
+        System.out.print("BFS: ");
+        levelOrderTraversal(root);
     }
 
     public static void preOrder(Node root){
@@ -56,5 +62,17 @@ public class BinaryTreeTraversal {
         postOrder(root.right);
         System.out.print(root.val + " ");
 
+    }
+    public static void levelOrderTraversal(Node root){
+        if (root == null) return;
+        Queue<Node> q = new LinkedList<>();
+        q.offer(root);
+        while (!q.isEmpty()){
+            Node temp = q.poll();
+            System.out.print(temp.val + " ");
+            // push left and right children
+            if (temp.left != null) q.offer(temp.left);
+            if (temp.right != null) q.offer(temp.right);
+        }
     }
 }
