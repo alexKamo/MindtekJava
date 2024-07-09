@@ -12,6 +12,9 @@ public class IsSameTree {
         if (p.val != q.val) return false;
         return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
+
+
+    // ANOTHER METHOD
     public boolean isSameTree2(TreeNode p, TreeNode q) {
 
         Queue<TreeNode> q1 = new LinkedList<>();
