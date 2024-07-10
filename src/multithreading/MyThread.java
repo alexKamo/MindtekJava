@@ -1,8 +1,8 @@
 package multithreading;
 
-public class NumberPrinter extends Thread{
+public class MyThread extends Thread{
 
-    public NumberPrinter(String name) {
+    public MyThread(String name) {
         super(name);
     }
 
