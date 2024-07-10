@@ -14,8 +14,8 @@ public class Intro {
         NumberPrinter thread2 = new NumberPrinter("Second -> ");
         thread2.start();
 
-        MyThread thread0 = new MyThread("ThreadZZero");
-        thread0.start();
+        MyThread thread0 = new MyThread();
+        thread0.run();
 
         for (int i = 0; i <= 5; i++) {
             System.out.println("main1 -> " + i);
@@ -26,7 +26,9 @@ public class Intro {
     /*
      Ways to create threads objects:
      1 extends Thread class
-
+     2 implement Runnable interface
+     3 Anonymous implementation
+     4 Lambda function
      */
 
 }

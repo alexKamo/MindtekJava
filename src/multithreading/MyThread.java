@@ -1,14 +1,11 @@
 package multithreading;
 
-public class MyThread extends Thread{
+public class MyThread implements Runnable{
 
-    public MyThread(String name) {
-        super(name);
-    }
 
     public void run(){
         for (int i = 0; i <= 5; i++) {
-            System.out.println(this.getName()+i);
+            System.out.println("MyThreads "+i);
         }
     }
 
