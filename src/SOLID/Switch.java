@@ -7,7 +7,7 @@ public class Switch {
     public Switch(){
         lightBulb = new LightBulb();
     }
-    public void Flip(){
+    public void flip(){
         if (lightBulb.isOn) lightBulb.turnOff();
         else lightBulb.turnOn();
     }
