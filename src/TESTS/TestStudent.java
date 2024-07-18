@@ -21,6 +21,8 @@ public class TestStudent {
 
         Collections.sort(students);
 
+        System.out.println(students);
+
     }
 
 }
