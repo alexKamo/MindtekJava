@@ -1,6 +1,6 @@
 package TESTS;
 
-public class Student {
+public class Student implements Comparable<Student>{
 
     private int id;
     private String name;
@@ -43,5 +43,10 @@ public class Student {
                 ", name='" + name + '\'' +
                 ", city='" + city + '\'' +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        return 0;
     }
 }
