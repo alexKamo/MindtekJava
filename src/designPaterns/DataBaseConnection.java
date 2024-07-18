@@ -11,4 +11,15 @@ public class DataBaseConnection {
         return obj;
     }
 
+    public void create(){
+        System.out.println("DB create operations");
+    }
+    public void update(){
+        System.out.println("DB update operations");
+    }
+    public void delete(){
+        System.out.println("DB delete operations");
+    }
+
+
 }
