@@ -10,6 +10,16 @@ public class TestSingleton {
 
 
         DataBaseConnection dbobj = DataBaseConnection.getConnection();
+
+        Test23 test23 = new Test23();
+        test23.testConnection();
+
+
+
+
+
+
+
     }
 
 
