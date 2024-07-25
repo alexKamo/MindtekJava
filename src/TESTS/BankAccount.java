@@ -10,8 +10,9 @@ public class BankAccount {
 
     public static void main(String[] args) {
 
-        BankAccount account1 = new BankAccount(100);
+        BankAccount account1 = new BankAccount();
 
+        DepositTask task = new DepositTask(account1,100);
 
         Thread thread1 = new Thread(account1);
 
