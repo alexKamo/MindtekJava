@@ -4,6 +4,7 @@ public class BankAccount {
 
 
     int balance = 0;
+
     public void deposit(int amount){
         balance+=amount;
     }
@@ -32,6 +33,7 @@ public class BankAccount {
         thread4.start();
         thread5.start();
 
+        System.out.println("Total balance " +account1.balance);
     }
 
 
