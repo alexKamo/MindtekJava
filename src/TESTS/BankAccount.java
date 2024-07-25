@@ -13,8 +13,17 @@ public class BankAccount {
         BankAccount account1 = new BankAccount();
 
         DepositTask task = new DepositTask(account1,100);
+        DepositTask task2 = new DepositTask(account1,200);
+        DepositTask task3 = new DepositTask(account1,300);
+        DepositTask task4 = new DepositTask(account1,400);
+        DepositTask task5 = new DepositTask(account1,500);
 
-        Thread thread1 = new Thread(account1);
+
+        Thread thread1 = new Thread(task);
+        Thread thread2 = new Thread(task2);
+        Thread thread3 = new Thread(task3);
+        Thread thread4 = new Thread(task4);
+        Thread thread5 = new Thread(task5);
 
 
 
