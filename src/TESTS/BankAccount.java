@@ -1,21 +1,11 @@
 package TESTS;
 
-public class BankAccount implements Runnable{
+public class BankAccount {
 
 
     int balance = 0;
-    int amount;
-
-    public BankAccount(int amount){
-        this.amount=amount;
-    }
-
-    public void deposit(){
+    public void deposit(int amount){
         balance+=amount;
-    }
-
-    public void run() {
-        deposit();
     }
 
     public static void main(String[] args) {
