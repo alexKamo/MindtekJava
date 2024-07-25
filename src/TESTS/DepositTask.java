@@ -10,8 +10,6 @@ public class DepositTask implements Runnable{
         this.amount=amount;
     }
 
-
-
     @Override
     public void run() {
         account.deposit(amount);
