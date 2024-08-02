@@ -51,13 +51,5 @@ public class Intro {
         Thread thrObject2 = new Thread(runnable);
         thrObject2.start();
 
-
-
-
-
-
     }
-
-
-
 }
