@@ -22,6 +22,10 @@ public class Intro {
         }
 
 
+
+
+
+
             /*
      Ways to create threads objects:
      1 extends Thread class
