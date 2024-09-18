@@ -9,6 +9,15 @@ public class Task {
 
         // Find out total month and days hotel had guest
 
+        int totalDays = 0;
+        int totalMonth = 0;
+
+        for (String data : checkInAndCheckOut){
+            String CI = data.substring(data.indexOf(":")+1, data.indexOf(" "));
+            String CO = data.substring(data.lastIndexOf(":")+1);
+
+
+        }
     }
 
 }
