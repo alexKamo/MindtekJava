@@ -27,9 +27,9 @@ public class DateStringPArsing {
         System.out.println("Days since we started out course " + period);
 
         System.out.println("*************************************************");
-        String myDate = "2024/08/02 06:22";
+        String myDate = "2024/08/02 06:22 AM";
 
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd hh:mm");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm a");
 
         LocalDate mockInterviewDate = LocalDate.parse(myDate,formatter);
         System.out.println(mockInterviewDate);
