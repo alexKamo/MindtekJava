@@ -2,6 +2,7 @@ package streams2;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class StreamsFlatMap {
 
@@ -15,7 +16,12 @@ public class StreamsFlatMap {
         List<List<Integer>> listList = new ArrayList<>(List.of(list,list2,list3,list4));
 
         System.out.println(listList);
+        //[[4, 2, 6], [1, 9], [5, 7], [3, 8, 2, 4]]
 
+        List<Integer> list1 = listList.stream()
+                .flatMap(x -> x.stream())
+                .collect(Collectors.toList());
+        System.out.println(list1);
     }
 
 }
