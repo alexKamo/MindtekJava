@@ -34,6 +34,12 @@ public class StreamsFlatMap {
         map.put("Kate",7);
 
         List<Map<String,Integer>> mapList = new ArrayList<>(List.of(map,map2));
+        System.out.println(mapList);
+
+        List<String> names = mapList.stream()
+                .flatMap(x -> x.keySet().stream())
+                .toList();
+        System.out.println(names);
     }
 
 }
