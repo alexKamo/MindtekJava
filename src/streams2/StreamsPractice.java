@@ -36,6 +36,11 @@ public class StreamsPractice {
         System.out.println(uniqueElement);
 
 
+        long numberOfUnique = list.stream()
+                .distinct()
+                .count();
+        System.out.println(numberOfUnique);
+
     }
 
 }
