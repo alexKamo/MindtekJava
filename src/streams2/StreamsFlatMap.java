@@ -1,8 +1,6 @@
 package streams2;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class StreamsFlatMap {
@@ -23,6 +21,19 @@ public class StreamsFlatMap {
                 .flatMap(Collection::stream)
                 .collect(Collectors.toList());
         System.out.println(list1);
+
+        // list of maps -> List.of(list)
+
+        Map<String,Integer> map = new HashMap<>();
+        map.put("John",5);
+        map.put("Patel",2);
+
+        Map<String,Integer> map2 = new HashMap<>();
+        map.put("Kimi",8);
+        map.put("David",9);
+        map.put("Kate",7);
+
+        List<Map<String,Integer>> mapList = new ArrayList<>(List.of(map,map2));
     }
 
 }
