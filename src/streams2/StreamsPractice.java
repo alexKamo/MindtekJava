@@ -22,9 +22,20 @@ public class StreamsPractice {
         // Get lengths of each fruit as a list.
 
         List<Integer> length = list.stream()
+        //        .map(String::length)
                 .map(x -> x.length()) //String -> int
                 .collect(Collectors.toList());
         System.out.println(length);
+
+
+        //DISTINCT
+
+        List<String> uniqueElement = list.stream()
+                .distinct()
+                .collect(Collectors.toList());
+        System.out.println(uniqueElement);
+
+
     }
 
 }
