@@ -12,6 +12,20 @@ public class StreamsMethod {
 
         // get sum of even number
 
+        int sum = list.stream()
+                .filter(x -> x%2==0)
+                .reduce(0,(a,b) -> a+b);
+        System.out.println(sum);
+
+        int sum2 = list.stream()
+                .filter(x -> x%2==0)
+                .reduce(1,(a,b) -> a*b);
+        System.out.println(sum2);
+
+
+        //.grouping():
+        //select departmentId, count(*) from employees group by departmentId;
+
 
     }
 
