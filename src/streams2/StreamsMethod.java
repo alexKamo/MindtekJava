@@ -2,6 +2,8 @@ package streams2;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class StreamsMethod {
 
@@ -32,6 +34,10 @@ public class StreamsMethod {
         Employee employee4 = new Employee("Bhanu",103,30);
 
         List<Employee> employees = new ArrayList<>(List.of(employee,employee2,employee3,employee4));
+
+        Map<Integer, List<Employee>> group = employees.stream()
+                .collect(Collectors.groupingBy(Employee::getDepartmentId));
+        System.out.println(group);
 
 
     }
