@@ -26,6 +26,13 @@ public class StreamsMethod {
         //.grouping():
         //select departmentId, count(*) from employees group by departmentId;
 
+        Employee employee = new Employee("John",100,10);
+        Employee employee2 = new Employee("Patel",101,20);
+        Employee employee3 = new Employee("Karthik",102,10);
+        Employee employee4 = new Employee("Bhanu",103,30);
+
+        List<Employee> employees = new ArrayList<>(List.of(employee,employee2,employee3,employee4));
+
 
     }
 
