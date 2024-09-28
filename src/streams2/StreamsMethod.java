@@ -41,7 +41,9 @@ public class StreamsMethod {
 
         System.out.println(group.get(10));
 
-
+        Map<Integer,Double> groupByDepId = employees.stream()
+                .collect(Collectors.groupingBy(Employee::getDepartmentId,Collectors.averagingInt(Employee::getId)));
+        System.out.println(groupByDepId);
     }
 
 }
