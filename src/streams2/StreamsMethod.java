@@ -39,6 +39,8 @@ public class StreamsMethod {
                 .collect(Collectors.groupingBy(Employee::getDepartmentId));
         System.out.println(group);
 
+        System.out.println(group.get(10));
+
 
     }
 
