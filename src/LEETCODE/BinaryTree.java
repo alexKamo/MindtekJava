@@ -16,9 +16,6 @@ public class BinaryTree {
 
 
 
-
-
-
     void inorderTraversal(TreeNode root, List<Integer> list){
         if (root == null) return;
         inorderTraversal(root.left, list);
