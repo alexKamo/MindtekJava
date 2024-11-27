@@ -2,7 +2,7 @@ package VariablesIntro;
 
 import java.util.Scanner;
 
-public class Task10 {
+public class FindMaximumValue {
     public static void main(String[] args) {
 
         System.out.println("Maximum finder");
