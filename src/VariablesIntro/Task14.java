@@ -19,6 +19,14 @@ public class Task14 {
         System.out.println("Total positive: " +pos);
         System.out.println("Total negative: " + (3-pos));
 
+        System.out.println("******************************************");
+
+        
+
+        System.out.println("******************************************");
+
+
+
     }
 }
 
